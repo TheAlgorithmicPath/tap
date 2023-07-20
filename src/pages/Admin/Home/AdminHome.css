@@ -1,0 +1,43 @@
+.AdminHome {
+  display: flex;
+  flex-direction: column;
+  min-height: 110vh;
+}
+
+.heading_page {
+  margin: 1rem 0 2rem 0;
+  font-size: 2.5rem;
+}
+
+.AdminHome_container {
+  text-align: center;
+  margin-top: 7rem;
+}
+.section_edit_content_container,
+.section_add_content_container,
+.section_user_container,
+.section_topic_container {
+  padding: 1.7rem 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_btn {
+  display: block;
+  width: 20rem;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--color-black);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card_btn:hover {
+  box-shadow: 0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}

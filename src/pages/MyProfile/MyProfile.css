@@ -1,0 +1,120 @@
+.my__profile {
+  font-size: 1.4rem;
+  padding-top: 10rem;
+}
+
+.profile__container {
+  margin: 0 3rem;
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile__name__email {
+  margin-top: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.profile__img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 100%;
+}
+
+.profile__name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.profile__email {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 400;
+  color: grey;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.cover__img__input {
+  width: 15rem;
+}
+
+.btn-cancel {
+  cursor: pointer;
+  background-color: white;
+  color: var(--color-primary);
+  padding: 0.7rem 2rem;
+  border-radius: 30px;
+  border: solid 1px var(--color-primary);
+  font-size: 1.1rem;
+  /* width: 12rem; */
+}
+
+
+  /* .btn-save {
+    background-color: var(--color-primary);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0.7rem 3.7rem;
+    color: white;
+  } */
+
+/* ///////////////////////////////////////////////////// */
+
+.details__container {
+  padding: 0 8rem;
+}
+
+.personal__details,
+.professional__details,
+.social__details {
+  margin: 5rem 0;
+  width: 55rem;
+}
+
+.personal__details__component,
+.professional__details__component,
+.social__details__component {
+  padding: 4rem;
+  padding-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading__section {
+  font-size: 2rem;
+}
+
+.component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.component__lable {
+  margin: 0.4rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.skills__container__my__profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}

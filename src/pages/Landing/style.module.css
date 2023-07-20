@@ -1,0 +1,440 @@
+/* ////////////////// Global ///////////////////// */
+
+.section_heading{
+  font-weight: 500;
+  font-size: 2rem;
+}
+.heading_2 {
+  font-size: 1.5rem;
+}
+
+.btn_primary_light {
+  cursor: pointer;
+  background-color: white;
+  color: var(--color-primary-light);
+  padding: 0.7rem 2rem;
+  border-radius: 30px;
+  border: solid 1px var(--color-primary-light);
+  font-size: 1.1rem;
+  width: 12rem;
+}
+
+.btn_primary_dark {
+  cursor: pointer;
+  /* background-image: linear-gradient(
+    to bottom,
+    rgb(253, 152, 118) 20%,
+    rgb(251, 128, 87)
+  ); */
+   background-image: linear-gradient(
+    to bottom,
+    var(--color-primary-light) 20%,
+    var(--color-primary-dark)
+  );
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  width: 13rem;
+}
+.btn_primary_dark:hover{
+  scale: 1.01;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0rem 0.5rem .5rem rgba(255, 98, 0, 0.19);
+  /* font-size: 1.3; */
+}
+/* ///////////////////////////////// */
+
+/* Hero Section */
+
+.hero_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 6rem;
+  gap: 7rem;
+
+}
+
+.hero_left {
+  /* max-width: 60rem; */
+  /* width: 100%; */
+}
+
+.hero_heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hero_text {
+  font-size: var(--font-size-para);
+  letter-spacing: 0.03rem;
+  margin-bottom: 3rem;
+  color: var(--color-paragraph-grey);
+}
+
+.hero_img {
+  max-height: 70rem;
+  width: 100%;
+}
+/* /////////////////////////////// */
+
+/* Roadmap Section */
+.roadmap_section {
+  padding: 0rem 7rem 2rem 7rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interview_roadmap_img {
+  max-height: 65rem;
+  width: 75%;
+}
+
+/* ///////////////////////////// */
+
+/* Learning Section */
+
+.learn_card_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+  /* padding: 2rem 8rem 10rem 8rem; */
+}
+
+.learn_card {
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.learn_card:hover {
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.17);
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+
+.learn_card_heading {
+  margin: 0;
+  padding: 1.5rem 1.5rem 0 0rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.learn_card_text {
+  margin: 0;
+  padding: 1rem 1rem 1rem 0rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--color-paragraph-grey);
+}
+
+.learn_btn {
+  color:  var(--color-primary);
+  font-size: 1.2rem;
+  border-bottom: 1px solid var(--color-primary-light);
+  cursor: pointer;
+}
+
+.learn_btn:hover{
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+/* ////////////////////////// */
+
+/* Why TAP Section */
+.why_tap_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  margin-bottom: 7rem;
+  gap: 5rem;
+  color: var(--color-paragraph-grey);
+}
+
+.why_tap_left {
+  padding: 2rem 0rem;
+}
+
+.why_tap_img {
+  max-height: 19rem;
+  border-radius: 4px;
+  box-shadow: 0rem 0rem .9rem rgba(0, 0, 0, 0.3);
+}
+
+.why_tap_right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 55rem;
+}
+
+.why_tap_txt {
+  margin-top: 0;
+  line-height: 1.5rem;
+  font-size: var(--font-size-para);
+}
+
+.why_tap_right_text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+/*  ////////////////////////////////////   */
+
+/* Features section */
+
+.features_container {
+  padding: 3rem 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.7rem;
+}
+
+.features_card {
+  width: 18rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* background-image: linear-gradient(
+    to bottom,
+    rgb(247, 247, 247) 20%,
+    rgb(243, 243, 243)
+  ); */
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0rem 0rem .9rem rgba(111, 111, 111, 0.3);
+}
+
+.features_card:hover{
+  outline: solid 1px var(--color-primary-light);
+  outline-offset: 1rem;
+  background-color: #fff;
+  /* box-shadow: 0.5rem 0.5rem .9rem rgba(70, 70, 70, 0.2); */
+
+}
+
+.features_img {
+  /* padding: 1rem; */
+  height: 4rem;
+  width: 4rem;
+  /* background-color: #887165; */
+  /* border-radius: 100rem; */
+}
+
+.features_head{
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.features_txt {
+  margin: 0;
+  text-align: center;
+  font-size: .9rem;
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  color: var(--color-paragraph-grey);
+}
+
+/* Video Section */
+
+.video_section {
+  margin: 3rem 0rem;
+  padding: 3rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+
+.video_section_left {
+  max-width: 50rem;
+}
+
+.video_section_heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.video_section_text {
+  font-size: var(--font-size-para);
+  color: var(--color-paragraph-grey);
+  margin-bottom: 3rem;
+}
+.home_yt_video {
+  height: 18rem;
+  width: 30rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.home_yt_video:hover{
+  scale: 1.01; 
+  transition: all 0.2s ease-in-out;
+}
+
+/* /////////////     Media Queries         ////////////// */
+
+
+@media screen and (max-width: 68.75em) {
+  .interview_roadmap_img {
+    max-height: 55rem;
+    max-width: 65%;
+  }
+  .features_container {
+    padding: 3rem 4rem;
+    gap: 1rem;
+  }
+
+  .home_yt_video {
+    height: 20rem;
+    width: 30rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 62.5em) {
+  .interview_roadmap_img {
+    max-height: 30rem;
+    max-width: 70%;
+  }
+  .home_yt_video {
+    height: 20rem;
+    width: 30rem;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .hero_section{
+    padding: 10rem 8rem 6rem 8rem;
+  }
+  .hero_img{
+    height: 15rem;
+  }
+  .interview_roadmap_img {
+    max-height: 20rem;
+    max-width: 100%;
+  }
+  .why_tap_container{
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 3rem;
+  }
+  .features_container {
+    padding: 2rem 4rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .features_card{
+    width: 20rem;
+    padding: 2rem;
+  }
+  .video_section{
+    /* flex-wrap: wrap; */
+  }
+  .home_yt_video {
+    height: 20rem;
+    width: 32rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 39.5em) {
+  .hero_section{
+    padding: 10rem 2rem 6rem 4rem;
+  }
+  .hero_img{
+    height: 15rem;
+  }
+  .interview_roadmap_img {
+    max-height: 20rem;
+    max-width: 100%;
+  }
+  .why_tap_container{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .features_container {
+    padding: 2rem 4rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .features_card{
+    width: 20rem;
+    padding: 2rem;
+  }
+  .video_section{
+    flex-wrap: wrap;
+  }
+  .home_yt_video {
+    height: 22rem;
+    width: 40rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 31.25em) {
+  .hero_section{
+    flex-wrap: wrap;
+    padding: 10rem 4rem 0rem 4rem;
+  }
+  .hero_img{
+    display: none;
+  }
+  .interview_roadmap_img {
+    max-height: 20rem;
+    max-width: 100%;
+  }
+  .interview_roadmap_img{
+    width: 100%;
+  }
+  .why_tap_container{
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .features_container {
+    padding: 2rem 4rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .features_card{
+    width: 25rem;
+    padding: 2rem;
+  }
+  .video_section{
+    flex-wrap: wrap;
+  }
+  .home_yt_video {
+    height: 20rem;
+    width: 24rem;
+    margin-top: 2rem;
+  }
+}
