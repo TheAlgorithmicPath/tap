@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+![Screenshot from 2023-07-05 18-32-21](https://github.com/TheAlgorithmicPath/frontend-main-v1/assets/72147285/3bd319d5-cdd8-4441-bf46-aaa9d63bcc3c)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# The Algorithmic Path (TAP)
+Our platform is dedicated to empowering students in accelerating their interview preparation. We provide a comprehensive range of refined materials, including articles, videos, and interview questions, carefully curated to equip students with the knowledge and skills necessary for successful interviews.
 
-### `npm start`
+We provide tailored learning paths for interview preparation, covering Language proficiency, Data Structures and Algorithms (DSA), Core Subjects, and Projects. These paths offer structured guidance, ensuring students cover all essential aspects. Each path includes articles by industry experts, covering the latest trends, and engaging videos with explanations, demonstrations, and real-world examples.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Our platform also offers a vast collection of carefully selected interview questions. These questions align with top companies' expectations, allowing students to refine problem-solving skills and gain confidence. With our resources, students can systematically learn, understand complex concepts, and test their knowledge effectively.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Our platform aims to provide a holistic learning experience, ensuring that students have access to the most relevant and high-quality materials. Whether students are looking to improve their language proficiency, master data structures and algorithms, dive deep into core subjects, or work on practical projects, our platform is designed to support and guide them on their interview preparation journey.
 
-### `npm test`
+## Features
+- **User Registration and Profiles:** The website allows users to create accounts and maintain profiles.
+- **Refined Materials:** The website offers a wide range of refined materials, such as articles, videos, and questions, specifically curated to assist students in their interview preparation. These resources are carefully selected to provide relevant and up-to-date information.
+- **Community Contributions:** Users can contribute their own interview materials, such as articles, videos, and questions, to share with the community. The submitted materials go through a verification process by administrators before becoming visible to other users.
+- **Admin Verification:** Administrators review and verify the contributed materials to ensure their quality and accuracy before making them available to other users.
+- **Mobile-Friendly Design:** The website is designed to be responsive and accessible across various devices, including desktops, laptops, tablets, and smartphones. This ensures users can access and engage with the platform seamlessly from their preferred devices.
+- **Notifications and Reminders:** Users receive notifications and reminders about new content, upcoming assessments, or recommended resources. This feature helps users stay informed and engaged with the platform's latest updates.
+- **User Support:** Users can contact the website's support team for assistance or to report any issues they encounter while using the platform.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack ⚒️
 
-### `npm run build`
+**Client** 
+- React
+- Redux
+- MUI
+- CSS
+- JS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Server** 
+- Node
+- Express
+- MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Feedback 💬
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you have any feedback, please fill out this form https://forms.gle/3xz6KEa6yrSKHzmR8
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Support 💁
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For support, email thealgorithmicpath@gmail.com or join our Slack channel.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -90,12 +90,18 @@
   .nav_items{
     margin-right: 3rem;
   }
+  .top_bar{
+    width: 100vw;
+  }
 }
 
 @media screen and (max-width: 56.25em) {
   .nav_items{
     margin-right: 1rem;
     gap: 1rem;
+  }
+  .top_bar{
+    width: 100vw;
   }
 }
 
@@ -104,9 +110,11 @@
     padding: .7rem 1rem;
   }
   .nav_items{
-    font-size: .8rem;
-    margin-right: 1rem;
-    gap: .8rem;
+    font-size: .9rem;
+    gap: 1rem;
+  }
+  .top_bar{
+    width: 100vw;
   }
 }
 
@@ -115,8 +123,9 @@
     padding: .7rem 1rem;
   }
   .nav_items{
-    font-size: .8rem;
-    margin-right: 1rem;
-    gap: .8rem;
+    display: none;
+  }
+  .top_bar{
+    width: 100vw;
   }
 }

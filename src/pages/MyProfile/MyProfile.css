@@ -64,8 +64,7 @@
   /* width: 12rem; */
 }
 
-
-  /* .btn-save {
+/* .btn-save {
     background-color: var(--color-primary);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     padding: 0.7rem 3.7rem;
@@ -117,4 +116,102 @@
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1100px) {
+  .my__profile {
+    font-size: 1.4rem;
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile__img {
+    height: 8rem;
+    width: 8rem;
+  }
+  .details__container {
+    padding: 2rem;
+  }
+
+  .personal__details,
+  .professional__details,
+  .social__details {
+    padding: 0 0 0 4rem;
+    margin: 4rem 0;
+  }
+
+  .personal__details__component,
+  .professional__details__component,
+  .social__details__component {
+    padding: 2rem;
+    gap: 1.4rem;
+  }
+
+  .heading__section {
+    font-size: 2rem;
+  }
+  .component {
+    justify-content: flex-start;
+    gap: 4rem;
+  }
+
+  .component__lable {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .my__profile {
+    font-size: 1.4rem;
+    padding-top: 8rem;
+  }
+  .profile__container {
+    margin: 0;
+    padding: 0 3rem 0 0;
+    flex-wrap: wrap;
+  }
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .details__container {
+    padding: 2rem;
+  }
+
+  .personal__details,
+  .professional__details,
+  .social__details {
+    margin: 4rem 0;
+    padding: 0;
+  }
+
+  .personal__details__component,
+  .professional__details__component,
+  .social__details__component {
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .heading__section {
+    font-size: 1.8rem;
+  }
+
+  .component {
+    width: 85vw;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .component__lable {
+    font-size: 1rem;
+  }
+
+  .skills__container__my__profile {
+    font-size: 1rem;
+  }
 }

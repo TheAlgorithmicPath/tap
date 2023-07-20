@@ -57,11 +57,6 @@
 
 }
 
-.hero_left {
-  /* max-width: 60rem; */
-  /* width: 100%; */
-}
-
 .hero_heading {
   font-size: 2rem;
   font-weight: 500;
@@ -356,9 +351,7 @@
     width: 20rem;
     padding: 2rem;
   }
-  .video_section{
-    /* flex-wrap: wrap; */
-  }
+  
   .home_yt_video {
     height: 20rem;
     width: 32rem;

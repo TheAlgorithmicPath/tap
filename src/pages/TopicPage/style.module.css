@@ -57,3 +57,30 @@
   /* font-size: 1.3; */
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 1200px){
+  .topic_heading{
+    padding-top: 9rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .topic_heading{
+    padding-top: 9rem;
+    font-size: 2.5rem;
+  }
+  .nav_buttons_top{
+    padding: 2rem 2rem 0rem 2rem;
+  }
+  .nav_buttons_bottom{
+    padding: 2rem 2rem;
+  }
+  .btn_primary_light{
+    font-size: 1rem;
+  }
+  .btn_primary_dark{
+    font-size: 1rem;
+  }
+}
