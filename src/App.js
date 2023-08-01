@@ -40,7 +40,6 @@ function App() {
   }, [user, dispatch]);
   return (
     <Router>
-      // {loading && <Loader />}
       <Toaster position="top-center" duration="3000" />
       <Header />
       <Routes>
