@@ -108,13 +108,13 @@ export const updateUser = (userData) => async (dispatch) => {
 };
 
 export const isAuthenticatedUser = () => async (dispatch) => {
-  dispatch(showLoading());
+  // dispatch(showLoading());
   try {
     const res = await axios.get(
       `${process.env.REACT_APP_BACKEND_URL}/api/v1/isAuthenticatedUser`,
       { withCredentials: true }
     );
-    dispatch(hideLoading());
+    // dispatch(hideLoading());
     dispatch(setUser(res.data.user));
   } catch (err) {
     dispatch(hideLoading());
