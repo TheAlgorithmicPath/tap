@@ -43,7 +43,7 @@ const TopicPage = ({ subject }) => {
   };
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (user) {
+    // if (user) {
       localStorage.setItem("lastSubjectStudied", subject);
       if (subject === "DSA") {
         setTopicName(DSA[pageNo]?.name);
@@ -66,9 +66,10 @@ const TopicPage = ({ subject }) => {
         dispatch(getFilteredQuestions(LANG[pageNo]?.questions));
         dispatch(getFilteredVideos(LANG[pageNo]?.videos));
       }
-    } else {
-      toast.error("Please login to continue");
-    }
+    // } 
+    // else {
+    //   toast.error("Please login to continue");
+    // }
   }, [DSA, CSF, PROJ, LANG, subject, pageNo, user, dispatch]);
 
   return (
